@@ -25,6 +25,7 @@
     name: "BLOG",
     icon: "FaPencilAlt",
 },
+  
 ]
 
 export default floatingItemsList
