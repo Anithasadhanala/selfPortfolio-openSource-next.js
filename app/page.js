@@ -6,33 +6,30 @@ import Contact from '@/components/Contact';
 import FloatingBar from '@/components/FloatingBar';
 import Home from '@/components/Home';
 import Portfolio from '@/components/Portfolio';
-import  floatingItemsList  from '@/data/floatingItemsList';
-
-import {useState} from "react"
+import { TabsContext } from '@/context/TabsContext';
+import {useContext} from 'react';
 
 
 const App =()=> {
 
-
-
-  const [floatItem,setFloatItem] = useState("FaHome")
-
-
+  const {tabItemId} = useContext(TabsContext)
+    
   const ItemChanged = (data)=>{
     setFloatItem(data)
   }
 
   const diaplayFunction = ()=>{
-    switch(floatItem){
-      case "FaHome" : 
+
+    switch(tabItemId){
+      case 1: 
           return <Home/>
-      case "RiContactsFill":
+      case 2:
           return <About/>
-      case "FaEnvelope":
+      case 4:
           return <Contact/>
-      case "FaPencilAlt":
+      case 5:
           return <Blog/>
-      case "IoNewspaper":
+      case 3:
           return <Portfolio/>
       default:
           return ""

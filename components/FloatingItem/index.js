@@ -1,47 +1,34 @@
-import { FaHome } from "react-icons/fa";
-import { RiContactsFill } from "react-icons/ri";
-import { FaEnvelope } from "react-icons/fa6";
-import { FaPencilAlt } from "react-icons/fa";
-import { IoNewspaper } from "react-icons/io5";
+import { TabsContext } from "@/context/TabsContext";
+import IconRender from "../IconRender";
+import {useContext} from 'react';
 
 
 const FloatingItem = props => {
-    const {details,floatingItemClicked} = props
-    const {name,icon} = details
+    const {details} = props
+    const {name,icon,id} = details
 
-    const iconFunction = (size)=>{
-
-        const styling = `h-[${size}px] w-[${size}px]`
-        switch(icon){
-            case "FaHome" : 
-                return <FaHome className={styling}/>
-            case "RiContactsFill":
-                return <RiContactsFill className={styling}/>
-            case "FaEnvelope":
-                return <FaEnvelope className={styling}/>
-            case "FaPencilAlt":
-                return <FaPencilAlt className={styling}/>
-            case "IoNewspaper":
-                return <IoNewspaper className={styling}/>
-            default:
-                return ""
-        }
-    }
-
-    const floatingBarClicked = () => {
-        floatingItemClicked(icon)
-    }
+    const {changeTab,tabItemId} = useContext(TabsContext)
     
+    const floatingBarClicked = () => {
+        console.log("AAAAAAAAAAAA")
+        changeTab(id)
+    }
+
+    let styling = "relative rounded-full w-12 h-12 overflow-hidden transition-all duration-300 hover:w-32 hover:shadow-lg bg-gray-700 text-white  flex justify-center items-center mb-1"
+    if(id==tabItemId) styling = "relative rounded-full w-12 h-12 overflow-hidden transition-all duration-300 hover:w-32 hover:shadow-lg text-white  flex justify-center items-center mb-1"+" bg-yellow-400"
+
+
 
     return(
-        <button onClick={floatingBarClicked} className="relative rounded-full w-12 h-12 overflow-hidden transition-all duration-300 hover:w-32 hover:shadow-lg bg-gray-700 text-white  flex justify-center items-center mb-1">
-            {iconFunction(20)}
+        <button onClick={floatingBarClicked} className={styling}>
+            <IconRender size={20} icon={icon}/>
             <span className="absolute top-0 left-0 w-full h-full flex items-center justify-around bg-yellow-400 text-white transition-all duration-300 opacity-0 hover:opacity-100">
                 <p className="text-md font-semibold">{name}</p>
-                {iconFunction(18)}
+                <IconRender size={18} icon={icon}/>
+                
             </span>
         </button>
     )
 }
-
+ 
 export default FloatingItem
