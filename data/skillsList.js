@@ -9,7 +9,6 @@
       image: "https://legacy.reactjs.org/logo-og.png",
     },
     {
-
         name: "Javascript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
