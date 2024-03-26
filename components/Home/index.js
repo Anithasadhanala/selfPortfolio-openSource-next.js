@@ -23,13 +23,8 @@ const Home = () => {
 
 return(
 
-    <div style={{
-        '@media (maxWidth: 500px)': {
-          backgroundImage: 'none'
-        },
-        backgroundImage: `url(${bg.src})`,
-      }} 
-      className="flex flex-col  md:flex-row justify-between w-100 items-center h-screen w-screen bg-black md:bg-none overflow-x-hidden">
+    <div
+      className="flex flex-col  md:flex-row justify-between w-100 items-center h-screen w-screen bg-black md:bg-hero overflow-x-hidden">
         
         <MobileNavbar/>
 
