@@ -1,3 +1,4 @@
+import { blogsList } from "@/data/blogsList";
 import InitiativesItem from "../InitiativesItem"
 import MobileNavbar from '@/components/NavbarMobile';
 
@@ -8,7 +9,14 @@ const Blog = () =>{
             <h1 className="text-yellow-400 font-bold text-[25px] md:text-[40px] mb-4"><span className="text-white">MY</span>  BLOGS</h1>
 
             <ul className="">
-                <InitiativesItem/>
+
+                {
+                    blogsList.map((each)=> <InitiativesItem details={each} key={each.id}/>)
+                }
+
+
+
+               
             </ul>
         </div>
     )

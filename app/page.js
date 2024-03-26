@@ -13,7 +13,6 @@ import {useContext} from 'react';
 const App =()=> {
 
   const {tabItemId} = useContext(TabsContext)
-    
   const ItemChanged = (data)=>{
     setFloatItem(data)
   }

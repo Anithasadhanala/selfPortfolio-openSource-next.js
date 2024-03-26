@@ -1,6 +1,9 @@
 import {TimelineItem,TimelineSeparator,TimelineConnector,TimelineContent,TimelineDot,} from '@mui/lab'
 
-const TimelineSingleItem = () =>{
+const TimelineSingleItem = (props) =>{
+
+    const {details}= props
+    const {date,subject,organisation,description} = details
     
     return(
         <TimelineItem>
@@ -10,9 +13,9 @@ const TimelineSingleItem = () =>{
         </TimelineSeparator>
         <TimelineContent>
             <div className=" flex flex-col justify-center ">
-                <p className="bg-gray-800 rounded-xl text-white p-2 w-32">2018 - present</p>
-                <h1 className="text-lg text-white font-normal md:font-semibold">Web Developer | <span className="text-md">Envato</span></h1>
-                <p className="text-sm text-white  font-thin md:font-normal">Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:w-full to only apply the w-full utility on hover. </p>
+                <p className="bg-gray-800 rounded-xl text-white p-2 w-32">{date}</p>
+                <h1 className="text-lg text-white font-normal md:font-semibold">{subject} | <span className="text-md">{organisation}</span></h1>
+                <p className="text-sm text-white  font-thin md:font-normal">{description} </p>
             </div>
         </TimelineContent>
     </TimelineItem>

@@ -1,7 +1,11 @@
-const ContactIcon = () => {
+const ContactIcon = (props) => {
+   
+    const {details} = props
+    const {websiteLink,icon} =details
+
     return(
-        <a className="mb-6" href="">
-            <img className="h-[35px] w-[35px] mr-6" src="https://legacy.reactjs.org/logo-og.png" alt="icon"/>
+        <a className="mb-6 h-[35px] w-[35px] mr-6" target="_blank" href={websiteLink}>
+            {icon}
         </a>
     )
 }
