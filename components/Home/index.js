@@ -15,7 +15,7 @@ const Home = () => {
           <img className="h-[200px] w-[200px] md:h-[500px] md:w-[750px] rounded-full md:rounded-2xl" src={porfolio.src} alt="myself"/> 
         </div>
         <div className="flex flex-col justify-start md:justify-center items-center w-[200px] h-screen md:w-[900px] md:h-[600px] p-2 md:p-0">
-          <h1 className="text-yellow-400 font-bold text-[25px] md:text-[40px] ">&#x2010;   &nbsp; I'M {selfDetails[0].name}.</h1>
+          <h1 className="text-yellow-400 font-bold text-[25px] md:text-[40px] ">-   I'M {selfDetails[0].name}.</h1>
           <p className="text-white font-bold text-[18px] md:text-[35px] mb-1">{selfDetails[0].jobRole}</p>
           <p className=" text-white mt-3 mb-2 md:mb-6 text-center font-light text-sm  w-screen md:w-[500px]">{selfDetails[0].description}</p>
           <a href={selfDetails[0].resumeDriveLink}>
