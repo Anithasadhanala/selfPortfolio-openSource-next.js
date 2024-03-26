@@ -2,7 +2,7 @@ export const projectsList =[
     {
         id:1,
         name: "NEXT WATCH",
-        imageUrl:"https://img.freepik.com/free-vector/tiny-people-huge-smart-television-with-application-icons-display-smart-tv-technology-internet-television-online-tv-sreaming-concept-bright-vibrant-violet-isolated-illustration_335657-990.jpg?w=996&t=st=1711437391~exp=1711437991~hmac=a53cf59813b83c96b0b31f2c80682fa1fa1fec1817d1823a724527b338d65e79",
+        imageUrl:"https://img.freepik.com/free-vector/open-air-cinema-design_23-2148644855.jpg?t=st=1711470662~exp=1711474262~hmac=ff1c4027223becb4006a77458a7651e3354c06ec786ec68a4427b9edcf65fd1d&w=826",
         gitCodeLink:"https://github.com/Anithasadhanala/nxt_watch_desktop",
         hostedUrl:"https://nxtwatch2023.ccbp.tech/",
     },
@@ -31,7 +31,7 @@ export const projectsList =[
 
         id:5,
         name:"SPEED TYPING",
-        imageUrl:"https://img.freepik.com/free-photo/man-works-front-computer-night-top-view_169016-50716.jpg?w=996&t=st=1711465507~exp=1711466107~hmac=fc44a280ca1a2a0ac095e2cd7ebe7994c2efae5e43b370adcd47e811c586ba98",
+        imageUrl:"https://img.freepik.com/free-vector/male-animator-sitting-computer-desk-creating-project-graphic-motion-designer-sitting-workplace-studio-developing-web-game-flat-vector-illustration-design-art-concept_74855-22510.jpg?t=st=1711470891~exp=1711474491~hmac=c3cfcf694ed13c07e8adbeda3c6699b18a6870bddaa244a1636f2e6f00224662&w=1060",
         gitCodeLink:"https://github.com/Anithasadhanala/SpeedTypingProject",
         hostedUrl:"https://anithaspeedtype.ccbp.tech/",
     },

@@ -37,7 +37,7 @@ const App =()=> {
 
 
   return (
-    <div className="min-h-screen overflow-y-auto">
+    <div className="min-h-screen overflow-y-auto  overflow-x-hidden">
       {diaplayFunction()}
       <FloatingBar ItemChanged={ItemChanged}/>
     </div>

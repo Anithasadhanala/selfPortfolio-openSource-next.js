@@ -13,12 +13,12 @@ const NavItemMobile = (props) =>{
         changeTab(id)
     }
 
-    let styling = "p-1"
-    if(id==tabItemId) styling="text-yellow-400 p-1"
+    let styling = ""
+    if(id==tabItemId) styling="text-yellow-400 "
 
     return(
         <button onClick={floatingBarClicked} className={styling}>
-         <IconRender size={28} icon={icon}/>
+         <IconRender size={29} icon={icon}/>
     </button>
 
     )

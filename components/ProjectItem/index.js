@@ -5,7 +5,7 @@ const ProjectItem = (props) => {
     const {details} = props;
     const {imageUrl,gitCodeLink,hostedUrl,name} = details
     return(
-        <div className="w-[200px] rounded-lg bg-yellow-400 mr-0 md:mr-6 flex-wrap mt-4">
+        <div className="w-[250px] rounded-lg bg-yellow-400 mr-0 md:mr-6 flex-wrap mt-4">
              <ImageWithHoverText
         src={imageUrl}
         alt="Image Alt Text"
