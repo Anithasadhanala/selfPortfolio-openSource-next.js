@@ -1,7 +1,7 @@
 
 # selfPorfolio-openSource
 
-A Portfolio for showcasing the skills, experiece and manhy more!!!
+A Portfolio for showcasing the skills, experiece and many more!!!
 
 # V1.0.0
 This is an initial version of the self-portfolio
@@ -12,7 +12,7 @@ This project is purely implemented for the keeping of open source developer frie
 
 Technologies used are :
 
-Client :  Next.js v14, React.js v18.2.0, Tailwind css v3.0, Grid layouts 
+Client :  Next.js v14, Material UI, React.js v18.2.0, Tailwind css v3.0, Grid layouts 
 
 
 # Published URL
