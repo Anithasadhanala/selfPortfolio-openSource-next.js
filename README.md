@@ -35,9 +35,9 @@ click on fork tab for getting a copy of this project into your github account
 1.Clone the repository to your local machine:
 
 ```git
-git clone " paste the link of the repo from your account by clicking >>>code , >>>Https "
+git clone "paste the link of the repo from your account by clicking -code , -Https"
 
-ex: " git clone https://github.com/your-user-name-here/selfPortfolio-openSource-next.js.git "
+ex: "git clone https://github.com/your-user-name-here/selfPortfolio-openSource-next.js.git"
 
 ```
 
@@ -72,6 +72,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## steps to modify:
+
 1. Change your image in the "public folder" only in png format. Name it as "myImage.png".
 2. Change the data folder, where you will be giving your details to be filled in this self portfolio.
 (use the given step on each file of the data folder)
@@ -80,7 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 -> After modifing the changes to this project, you can deploy
 
 
-4.Deployment:
+## Deployment:
 
 ```chrome
 Go to netlify
