@@ -1,3 +1,7 @@
+
+
+
+// Each Initiative is rendered from here using the props passed
 const InitiativesItem = (props) => {
  
     const {details} = props;

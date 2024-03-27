@@ -5,13 +5,14 @@ import { IoArrowForwardCircle } from "react-icons/io5";
 import MobileNavbar from '@/components/NavbarMobile';
 import {selfDetails} from '@/data/selfDetails'
 
+
+// Home tab renders this Home Component
 const Home = () => {
+
   return(
-    
     <div
       className="flex flex-col  md:flex-row justify-between w-100 items-center h-screen w-screen bg-black md:bg-hero  overflow-y-hidden overflow-x-hidden"> 
         <MobileNavbar/>
-        
           <div className="bg-gray-900 md:h-[500px] md:w-[500px]  h-[200px] w-[200px] mt-[40px] md:mt-[30px] rounded-full md:rounded-3xl ml-8 shadow-2xl mb-4 md:mb-0 shadow-gray-900">
             <img className="h-[200px] w-[200px] md:h-[500px] md:w-[750px] rounded-full md:rounded-2xl" src={porfolio.src} alt="myself"/> 
           </div>
@@ -23,7 +24,6 @@ const Home = () => {
             <button  className="text-white border-2 border-yellow-400 rounded-2xl p-3 flex justify-center items-center" type="button">Know More About Me <span><IoArrowForwardCircle className="ml-2 h-[30px] w-[30px] text-yellow-400"/></span></button>
           </a>
         </ div>
-       
     </div>
   )
 }

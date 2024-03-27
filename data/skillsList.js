@@ -1,4 +1,14 @@
 
+
+/*
+
+add your skills name
+image to showcase your skill in your skills section
+
+*/
+
+
+
  const skillsList = [
     {
         name: "Next.js",

@@ -1,3 +1,15 @@
+
+/*
+* Add your projects here, these will be displayes on the projects section!!
+* step:1 = add the id as 1,2,3,..
+* step:2 = add the name (should not exceed 15 letters with space)
+* step:3 = add imageUrl 
+* step:4 = add github url of your project
+* step:5 = add hosted url
+*/
+
+
+
 export const projectsList =[
     {
         id:1,

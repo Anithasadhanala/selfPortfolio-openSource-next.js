@@ -6,11 +6,12 @@ import { IoNewspaper } from "react-icons/io5";
 
 
 
+// Based on the icon number, the corresponding component is returned for floating Bar and BottomNavbar
 const IconRender = (props)=>{
 
     const {size,icon} = props
-
     const styling = `h-[${size}px] w-[${size}px]`
+
     switch(icon){
         case "FaHome" : 
             return <FaHome className={styling}/>

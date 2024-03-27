@@ -1,3 +1,17 @@
+
+
+
+/*
+* Add your contact details here, these blogs will be displays on the contact section!!
+* step:1 = add the id on the platforms as 1,2,3,..
+* step:2 = add name (should not exceed 15 letters with space)
+* step:3 = add icon only in svg format
+* step:4 = add the website Link which is live to showcase your contactItem
+* step:5 = add the correct email 
+*/
+
+
+
 export const contactDetails = [
 
     {

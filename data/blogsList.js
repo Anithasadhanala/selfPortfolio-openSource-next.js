@@ -1,3 +1,15 @@
+
+/*
+* Add your blogs here, these blogs will be displays on the blogs section!!
+* step:1 = add the id as 1,2,3,..
+* step:2 = add title (should not exceed 15 letters with space)
+* step:3 = add organisation or time required to read your blog (should not exceed 15 letters with space)
+* step:4 = add the website Url which is live to showcase your blog
+* step:5 = add description should not exceed 50 words
+*/
+
+
+
 export const blogsList = [
     {
         id:1,

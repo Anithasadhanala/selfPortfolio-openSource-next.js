@@ -1,5 +1,7 @@
 import {TimelineItem,TimelineSeparator,TimelineConnector,TimelineContent,TimelineDot,} from '@mui/lab'
 
+
+// timeline present in the education section renders this component
 const TimelineSingleItem = (props) =>{
 
     const {details}= props

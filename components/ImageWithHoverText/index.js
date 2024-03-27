@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// ProjectItem has hover functionality using this component
 const ImageWithHoverText = ({ src, alt, text }) => {
   return (
     <div className="relative">

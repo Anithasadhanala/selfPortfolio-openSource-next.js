@@ -1,3 +1,6 @@
+
+
+// each Contact Icon calls this component 
 const ContactIcon = (props) => {
    
     const {details} = props

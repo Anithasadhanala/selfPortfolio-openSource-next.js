@@ -10,12 +10,12 @@ import { educationDetails } from '@/data/educationDetails';
 import { experienceDetails } from '@/data/experienceDetails';
 
 
+// About tab renders this component
 const About = () => {
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [position, setPosition] = useState('alternate');
-
 
   useEffect(() => {
     if (isMobile) {

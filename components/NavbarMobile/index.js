@@ -2,10 +2,8 @@ import floatingItemsList from "@/data/floatingItemsList";
 import NavItemMobile from "../NavItemMobile";
 
 
-
-
+// Smaller devices renders this component 
 const MobileNavbar = () => {
-
 
     return (
       <nav className="bg-gray-800 md:hidden z-50 text-white pr-2 pl-2 h-[60px] pt-[18px] fixed rounded-t-2xl bottom-0 w-full sm:relative sm:bg-transparent  sm:bottom-auto">          

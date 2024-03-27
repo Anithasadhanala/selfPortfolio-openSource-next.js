@@ -3,6 +3,7 @@ import IconRender from "../IconRender";
 import { TabsContext } from "@/context/TabsContext";
 
 
+// Each mobile navbar Item renders this compoenent
 const NavItemMobile = (props) =>{
 
     const {details} = props

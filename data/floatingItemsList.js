@@ -1,3 +1,12 @@
+ 
+ 
+/*
+* if you don't have any blogs the, remove id:5
+* else, do not disturb this list
+*/ 
+ 
+
+ 
  const floatingItemsList = [
 {
     id: 1,
