@@ -1,6 +1,6 @@
 "use client"
 
-import porfolio from "../../public/anitha.png"
+import porfolio from "../../public/myImage.png"
 import { IoArrowForwardCircle } from "react-icons/io5";
 import MobileNavbar from '@/components/NavbarMobile';
 import {selfDetails} from '@/data/selfDetails'
