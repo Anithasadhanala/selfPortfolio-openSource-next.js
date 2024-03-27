@@ -20,8 +20,8 @@ const Home = () => {
             <h1 className="text-yellow-400 font-bold text-[25px] md:text-[40px] ">-   I'M {selfDetails[0].name}.</h1>
             <p className="text-white font-bold text-[18px] md:text-[35px] mb-1">{selfDetails[0].jobRole}</p>
             <p className=" text-white mt-3 mb-2 md:mb-6 text-center font-light text-sm  w-screen md:w-[500px]">{selfDetails[0].description}</p>
-            <a href={selfDetails[0].resumeDriveLink}>
-            <button  className="text-white border-2 border-yellow-400 rounded-2xl p-3 flex justify-center items-center" type="button">Know More About Me <span><IoArrowForwardCircle className="ml-2 h-[30px] w-[30px] text-yellow-400"/></span></button>
+            <a target="_blank" href={selfDetails[0].resumeDriveLink}>
+            <button  className="text-white border-2 border-yellow-400 rounded-2xl p-3 flex justify-center items-center" type="button">My Resume <span><IoArrowForwardCircle className="ml-2 h-[30px] w-[30px] text-yellow-400"/></span></button>
           </a>
         </ div>
     </div>
