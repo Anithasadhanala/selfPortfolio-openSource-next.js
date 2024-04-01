@@ -1,7 +1,7 @@
 
 # selfPorfolio-openSource
 
-A Portfolio for showcasing the skills, experiece and many more!!!
+A Portfolio for showcasing the skills, experiece and many more!!
 
 # V1.0.0
 This is an initial version of the self-portfolio
