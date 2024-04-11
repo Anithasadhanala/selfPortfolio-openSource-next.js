@@ -112,8 +112,6 @@ Click the "Fork" button on the repository page to create your own copy.
 ```
   to create a new branch for your changes.
 
-
-
 - Make your changes:
 ```
  Customize the template, add new features, fix bugs, or improve the existing codebase.
